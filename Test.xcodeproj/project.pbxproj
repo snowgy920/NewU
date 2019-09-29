@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09F6F17923404DC300FDD362 /* ControlsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6F17823404DC300FDD362 /* ControlsPageViewController.swift */; };
+		09F6F17C2340557700FDD362 /* AdvancedPieChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F6F17A2340557600FDD362 /* AdvancedPieChartView.xib */; };
+		09F6F17D2340557700FDD362 /* AdvancedPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6F17B2340557600FDD362 /* AdvancedPieChartView.swift */; };
 		658951AF233B2BCC004D1C45 /* globalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658951AE233B2BCC004D1C45 /* globalVariable.swift */; };
 		658951B1233B2FAC004D1C45 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658951B0233B2FAC004D1C45 /* Extensions.swift */; };
 		658C8ECB233B065F00AC4CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C8ECA233B065F00AC4CC2 /* AppDelegate.swift */; };
@@ -57,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09F6F17823404DC300FDD362 /* ControlsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsPageViewController.swift; sourceTree = "<group>"; };
+		09F6F17A2340557600FDD362 /* AdvancedPieChartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedPieChartView.xib; sourceTree = "<group>"; };
+		09F6F17B2340557600FDD362 /* AdvancedPieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedPieChartView.swift; sourceTree = "<group>"; };
 		33EA69C231C30578C06F5553 /* Pods-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTests.release.xcconfig"; path = "Target Support Files/Pods-TestTests/Pods-TestTests.release.xcconfig"; sourceTree = "<group>"; };
 		34E1B6767DB241F09EFD548A /* Pods_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A139B7FC6AD2217F87328E /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +135,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09F6F1732340492A00FDD362 /* ControlsPage */ = {
+			isa = PBXGroup;
+			children = (
+				09F6F17823404DC300FDD362 /* ControlsPageViewController.swift */,
+			);
+			path = ControlsPage;
+			sourceTree = "<group>";
+		};
 		658C8EBE233B065F00AC4CC2 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +174,7 @@
 				65E7AC3A233B829900DE65B6 /* SignPage */,
 				65E7AC33233B5DE400DE65B6 /* LoginPage */,
 				658C8EF8233B0EA700AC4CC2 /* FirstPage */,
+				09F6F1732340492A00FDD362 /* ControlsPage */,
 				658C8ECA233B065F00AC4CC2 /* AppDelegate.swift */,
 				658C8ECE233B065F00AC4CC2 /* Main.storyboard */,
 				658C8ED1233B066100AC4CC2 /* Assets.xcassets */,
@@ -167,6 +182,8 @@
 				658C8ED6233B066100AC4CC2 /* Info.plist */,
 				658951AE233B2BCC004D1C45 /* globalVariable.swift */,
 				658951B0233B2FAC004D1C45 /* Extensions.swift */,
+				09F6F17B2340557600FDD362 /* AdvancedPieChartView.swift */,
+				09F6F17A2340557600FDD362 /* AdvancedPieChartView.xib */,
 				FA9C2846233D1D89008C6A04 /* PieChartView.swift */,
 				FA9C2845233D1D89008C6A04 /* PieChartView.xib */,
 				FA9C2844233D1D89008C6A04 /* ProgressHView.swift */,
@@ -386,6 +403,7 @@
 				658C8ED5233B066100AC4CC2 /* LaunchScreen.storyboard in Resources */,
 				FA9B432B233E2CEE00B257FF /* Roboto-Light.ttf in Resources */,
 				FA9B4329233E2CEE00B257FF /* Roboto-Regular.ttf in Resources */,
+				09F6F17C2340557700FDD362 /* AdvancedPieChartView.xib in Resources */,
 				FA9C2848233D1D89008C6A04 /* ProgressWView.xib in Resources */,
 				FA9B432A233E2CEE00B257FF /* Roboto-Bold.ttf in Resources */,
 				FA9C284B233D1D89008C6A04 /* PieChartView.xib in Resources */,
@@ -533,6 +551,8 @@
 				65A9B855233CAB1800002AD5 /* TotalPageCollectionViewCell.swift in Sources */,
 				65A9B853233C8CBC00002AD5 /* TotalPageViewController.swift in Sources */,
 				658951AF233B2BCC004D1C45 /* globalVariable.swift in Sources */,
+				09F6F17923404DC300FDD362 /* ControlsPageViewController.swift in Sources */,
+				09F6F17D2340557700FDD362 /* AdvancedPieChartView.swift in Sources */,
 				658C8ECB233B065F00AC4CC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

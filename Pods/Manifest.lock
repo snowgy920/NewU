@@ -1,0 +1,20 @@
+PODS:
+  - BetterSegmentedControl (1.2.1)
+  - SkyFloatingLabelTextField (3.7.0)
+
+DEPENDENCIES:
+  - BetterSegmentedControl (~> 1.2)
+  - SkyFloatingLabelTextField (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - BetterSegmentedControl
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  BetterSegmentedControl: b27bddbdff29b6cae988678d6cd106858986cd03
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+
+PODFILE CHECKSUM: cd0585b64259af62a1320fbf5e325d895d4cbb42
+
+COCOAPODS: 1.8.0

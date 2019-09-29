@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		656F76302340566400C816A1 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 656F762F2340566400C816A1 /* Fonts */; };
 		658951AF233B2BCC004D1C45 /* globalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658951AE233B2BCC004D1C45 /* globalVariable.swift */; };
 		658951B1233B2FAC004D1C45 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658951B0233B2FAC004D1C45 /* Extensions.swift */; };
 		658C8ECB233B065F00AC4CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C8ECA233B065F00AC4CC2 /* AppDelegate.swift */; };
@@ -25,12 +26,6 @@
 		B11F8F21914D876108560B21 /* Pods_Test_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9947B2CB9315671974A5C794 /* Pods_Test_TestUITests.framework */; };
 		D84E318198E7F7BE9270F76B /* Pods_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E1B6767DB241F09EFD548A /* Pods_TestTests.framework */; };
 		EFBFBDAE249E7618234EC4A7 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929B2A018EEBCF03EA824854 /* Pods_Test.framework */; };
-		FA9B4320233DFB9E00B257FF /* OpenSans.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA9B431E233DFB9E00B257FF /* OpenSans.otf */; };
-		FA9B4323233DFBEB00B257FF /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA9B4322233DFBEB00B257FF /* SF-Pro-Display-Light.otf */; };
-		FA9B4325233E2BE200B257FF /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA9B4324233E2BE200B257FF /* OpenSans-Light.ttf */; };
-		FA9B4329233E2CEE00B257FF /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA9B4326233E2CEE00B257FF /* Roboto-Regular.ttf */; };
-		FA9B432A233E2CEE00B257FF /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA9B4327233E2CEE00B257FF /* Roboto-Bold.ttf */; };
-		FA9B432B233E2CEE00B257FF /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA9B4328233E2CEE00B257FF /* Roboto-Light.ttf */; };
 		FA9C2847233D1D89008C6A04 /* ProgressHView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9C2841233D1D88008C6A04 /* ProgressHView.xib */; };
 		FA9C2848233D1D89008C6A04 /* ProgressWView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9C2842233D1D88008C6A04 /* ProgressWView.xib */; };
 		FA9C2849233D1D89008C6A04 /* ProgressWView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C2843233D1D89008C6A04 /* ProgressWView.swift */; };
@@ -62,6 +57,7 @@
 		40A139B7FC6AD2217F87328E /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		440722D940C31E931BD16E3E /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
 		463A809D9F45AA2845FB9FC0 /* Pods-Test-TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-Test-TestUITests/Pods-Test-TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		656F762F2340566400C816A1 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		658951AE233B2BCC004D1C45 /* globalVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalVariable.swift; sourceTree = "<group>"; };
 		658951B0233B2FAC004D1C45 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		658C8EC7233B065F00AC4CC2 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,12 +83,6 @@
 		9947B2CB9315671974A5C794 /* Pods_Test_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D8940610037DDA20F9E2A4 /* Pods-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTests.debug.xcconfig"; path = "Target Support Files/Pods-TestTests/Pods-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2261792AB951152AFCF8A8D /* Pods-Test-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-TestUITests.release.xcconfig"; path = "Target Support Files/Pods-Test-TestUITests/Pods-Test-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FA9B431E233DFB9E00B257FF /* OpenSans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenSans.otf; sourceTree = "<group>"; };
-		FA9B4322233DFBEB00B257FF /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
-		FA9B4324233E2BE200B257FF /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
-		FA9B4326233E2CEE00B257FF /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		FA9B4327233E2CEE00B257FF /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		FA9B4328233E2CEE00B257FF /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		FA9C2841233D1D88008C6A04 /* ProgressHView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressHView.xib; sourceTree = "<group>"; };
 		FA9C2842233D1D88008C6A04 /* ProgressWView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressWView.xib; sourceTree = "<group>"; };
 		FA9C2843233D1D89008C6A04 /* ProgressWView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressWView.swift; sourceTree = "<group>"; };
@@ -154,7 +144,7 @@
 		658C8EC9233B065F00AC4CC2 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				FA9B431D233DFB4600B257FF /* Fonts */,
+				656F762F2340566400C816A1 /* Fonts */,
 				65A9B851233C8C2300002AD5 /* TotalPage */,
 				658DC3F3233BE029009E74FD /* TranformationPage */,
 				65E7AC3A233B829900DE65B6 /* SignPage */,
@@ -258,19 +248,6 @@
 				33EA69C231C30578C06F5553 /* Pods-TestTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FA9B431D233DFB4600B257FF /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				FA9B4322233DFBEB00B257FF /* SF-Pro-Display-Light.otf */,
-				FA9B431E233DFB9E00B257FF /* OpenSans.otf */,
-				FA9B4324233E2BE200B257FF /* OpenSans-Light.ttf */,
-				FA9B4327233E2CEE00B257FF /* Roboto-Bold.ttf */,
-				FA9B4328233E2CEE00B257FF /* Roboto-Light.ttf */,
-				FA9B4326233E2CEE00B257FF /* Roboto-Regular.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,17 +359,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA9B4320233DFB9E00B257FF /* OpenSans.otf in Resources */,
 				658C8ED5233B066100AC4CC2 /* LaunchScreen.storyboard in Resources */,
-				FA9B432B233E2CEE00B257FF /* Roboto-Light.ttf in Resources */,
-				FA9B4329233E2CEE00B257FF /* Roboto-Regular.ttf in Resources */,
 				FA9C2848233D1D89008C6A04 /* ProgressWView.xib in Resources */,
-				FA9B432A233E2CEE00B257FF /* Roboto-Bold.ttf in Resources */,
 				FA9C284B233D1D89008C6A04 /* PieChartView.xib in Resources */,
-				FA9B4323233DFBEB00B257FF /* SF-Pro-Display-Light.otf in Resources */,
 				658C8ED2233B066100AC4CC2 /* Assets.xcassets in Resources */,
 				FA9C2847233D1D89008C6A04 /* ProgressHView.xib in Resources */,
-				FA9B4325233E2BE200B257FF /* OpenSans-Light.ttf in Resources */,
+				656F76302340566400C816A1 /* Fonts in Resources */,
 				658C8ED0233B065F00AC4CC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

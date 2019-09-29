@@ -18,6 +18,8 @@ class SignPageViewController: UIViewController {
         view_SignBack.backgroundColor = UIColor().MygetColorFromHex(backgroundColor[backgroundColor_type])
         // Do any additional setup after loading t  he view.
     }
-    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
 }

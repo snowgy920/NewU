@@ -70,6 +70,10 @@ class TotalPageViewController: UIViewController, UICollectionViewDataSource, UIC
         // Do any additional setup after loading the view.
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         progress_Walk.animateChart()
         progress_Water.animateProgress()

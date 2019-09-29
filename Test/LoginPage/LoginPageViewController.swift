@@ -19,5 +19,7 @@ class LoginPageViewController: UIViewController {
         view_loginBack.backgroundColor = UIColor().MygetColorFromHex(backgroundColor[backgroundColor_type])
         // Do any additional setup after loading the view.
     }
-    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 }

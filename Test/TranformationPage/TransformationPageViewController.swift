@@ -13,15 +13,19 @@ class TransformationPageViewController: UIViewController {
     @IBOutlet weak var btn_next: UIButton!
     
     @IBOutlet weak var img_massgain: UIImageView!
+    @IBOutlet weak var view_massgain: UIView!
     var isCheckMassgain:Bool = true
     
     @IBOutlet weak var img_maintant: UIImageView!
+    @IBOutlet weak var view_maintant: UIView!
     var isCheckMaintant:Bool = true
     
     @IBOutlet weak var img_fatloss: UIImageView!
+    @IBOutlet weak var view_fatloss: UIView!
     var isCheckFatloss:Bool = true
     
     @IBOutlet weak var img_pregancy: UIImageView!
+    @IBOutlet weak var view_pregnancy: UIView!
     var isCheckPregnancy:Bool = true
     
     override func viewDidLoad() {
@@ -34,7 +38,11 @@ class TransformationPageViewController: UIViewController {
         
         btn_next.isHidden = true
     }
-
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     @IBAction func click_btnMassgain(_ sender: Any) {
         isCheckMassgain = !isCheckMassgain
         
@@ -42,16 +50,16 @@ class TransformationPageViewController: UIViewController {
             
             img_massgain.image = UIImage(named: "icon_sel_massgain")
             
-            img_massgain.layer.cornerRadius = img_massgain.frame.size.height/2
-            img_massgain.layer.borderColor = UIColor().MygetColorFromHex("#32D3F5").cgColor
-            img_massgain.layer.borderWidth = 1
+            view_massgain.layer.cornerRadius = view_massgain.frame.size.height/2
+            view_massgain.layer.borderColor = UIColor().MygetColorFromHex("#32D3F5").cgColor
+            view_massgain.layer.borderWidth = 1
          
         }
         else{
             img_massgain.image = UIImage(named: "icon_massgain")
             
-            img_massgain.layer.cornerRadius = 0
-            img_massgain.layer.borderWidth = 0
+            view_massgain.layer.cornerRadius = 0
+            view_massgain.layer.borderWidth = 0
         }
         
         if(isCheckMassgain || isCheckMaintant || isCheckFatloss || isCheckPregnancy){
@@ -66,15 +74,15 @@ class TransformationPageViewController: UIViewController {
         isCheckMaintant = !isCheckMaintant
         
         if(isCheckMaintant == true){
-            img_maintant.layer.cornerRadius = img_maintant.frame.size.height/2
-            img_maintant.layer.borderColor = UIColor().MygetColorFromHex("#32D3F5").cgColor
-            img_maintant.layer.borderWidth = 1
+            view_maintant.layer.cornerRadius = view_maintant.frame.size.height/2
+            view_maintant.layer.borderColor = UIColor().MygetColorFromHex("#32D3F5").cgColor
+            view_maintant.layer.borderWidth = 1
             
             img_maintant.image = UIImage(named: "icon_sel_maintain")
         }
         else{
-            img_maintant.layer.cornerRadius = 0
-            img_maintant.layer.borderWidth = 0
+            view_maintant.layer.cornerRadius = 0
+            view_maintant.layer.borderWidth = 0
             
             img_maintant.image = UIImage(named: "icon_maintain")
             
@@ -91,15 +99,15 @@ class TransformationPageViewController: UIViewController {
         isCheckFatloss = !isCheckFatloss
         
         if(isCheckFatloss == true){
-            img_fatloss.layer.cornerRadius = img_fatloss.frame.size.height/2
-            img_fatloss.layer.borderColor = UIColor().MygetColorFromHex("#32D3F5").cgColor
-            img_fatloss.layer.borderWidth = 1
+            view_fatloss.layer.cornerRadius = view_fatloss.frame.size.height/2
+            view_fatloss.layer.borderColor = UIColor().MygetColorFromHex("#32D3F5").cgColor
+            view_fatloss.layer.borderWidth = 1
             
             img_fatloss.image = UIImage(named: "icon_sel_fatloss")
         }
         else{
-            img_fatloss.layer.cornerRadius = 0
-            img_fatloss.layer.borderWidth = 0
+            view_fatloss.layer.cornerRadius = 0
+            view_fatloss.layer.borderWidth = 0
             
             img_fatloss.image = UIImage(named: "icon_fatloss")
         }
@@ -115,15 +123,15 @@ class TransformationPageViewController: UIViewController {
         isCheckPregnancy = !isCheckPregnancy
         
         if(isCheckPregnancy == true){
-            img_pregancy.layer.cornerRadius = img_pregancy.frame.size.height/2
-            img_pregancy.layer.borderColor = UIColor().MygetColorFromHex("#32D3F5").cgColor
-            img_pregancy.layer.borderWidth = 1
+            view_pregnancy.layer.cornerRadius = view_pregnancy.frame.size.height/2
+            view_pregnancy.layer.borderColor = UIColor().MygetColorFromHex("#32D3F5").cgColor
+            view_pregnancy.layer.borderWidth = 1
             
-            img_pregancy.image = UIImage(named: "icon_pregnancy")
+            img_pregancy.image = UIImage(named: "icon_sel_pregnancy")
         }
         else{
-            img_pregancy.layer.cornerRadius = 0
-            img_pregancy.layer.borderWidth = 0
+            view_pregnancy.layer.cornerRadius = 0
+            view_pregnancy.layer.borderWidth = 0
             
             img_pregancy.image = UIImage(named: "icon_pregnancy")
         }
